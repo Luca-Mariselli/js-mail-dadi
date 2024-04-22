@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #222;
+    color: white;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.punteggi{
+    font-size: 36px;
+    border: solid 2px white;
+    padding: 1rem;
+    width: 600px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.vittoria{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
